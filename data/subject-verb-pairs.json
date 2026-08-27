@@ -1,0 +1,68 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "subject": "The cat",
+      "verbs": ["run", "runs", "is running"],
+      "correctVerb": "runs",
+      "difficulty": "beginner",
+      "hint": "Singular subject needs singular verb"
+    },
+    {
+      "id": 2,
+      "subject": "The dogs",
+      "verbs": ["plays", "play", "is playing"],
+      "correctVerb": "play",
+      "difficulty": "beginner",
+      "hint": "Plural subject needs plural verb"
+    },
+    {
+      "id": 3,
+      "subject": "She",
+      "verbs": ["go", "goes", "went"],
+      "correctVerb": "goes",
+      "difficulty": "beginner",
+      "hint": "Present tense, singular pronoun"
+    },
+    {
+      "id": 4,
+      "subject": "They",
+      "verbs": ["walk", "walks", "walking"],
+      "correctVerb": "walk",
+      "difficulty": "beginner",
+      "hint": "Plural pronoun in present tense"
+    },
+    {
+      "id": 5,
+      "subject": "The team",
+      "verbs": ["are", "is", "being"],
+      "correctVerb": "is",
+      "difficulty": "intermediate",
+      "hint": "Collective noun - treat as singular"
+    },
+    {
+      "id": 6,
+      "subject": "Neither Jack nor Jill",
+      "verbs": ["has", "have", "having"],
+      "correctVerb": "has",
+      "difficulty": "intermediate",
+      "hint": "Use verb that agrees with nearest subject"
+    },
+    {
+      "id": 7,
+      "subject": "The data",
+      "verbs": ["shows", "show", "showing"],
+      "correctVerb": "shows",
+      "difficulty": "advanced",
+      "hint": "Data can be singular when treated as a collective"
+    },
+    {
+      "id": 8,
+      "subject": "Everyone in the class",
+      "verbs": ["are", "is", "were"],
+      "correctVerb": "is",
+      "difficulty": "advanced",
+      "hint": "Indefinite pronouns are singular"
+    }
+  ]
+}

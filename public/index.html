@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Agreement Card Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 Grammar Agreement Card Game</h1>
+            <p>Master noun-adjective and subject-verb agreement</p>
+        </header>
+
+        <main>
+            <!-- Menu Screen -->
+            <div id="menuScreen" class="screen active">
+                <div class="menu-content">
+                    <h2>Welcome to the Game!</h2>
+                    <p>Choose a game mode to start:</p>
+                    <div class="button-group">
+                        <button class="btn btn-primary" onclick="startGame('noun-adjective')">
+                            📝 Noun-Adjective Agreement
+                        </button>
+                        <button class="btn btn-primary" onclick="startGame('subject-verb')">
+                            ✍️ Subject-Verb Agreement
+                        </button>
+                    </div>
+                    <div class="difficulty-section">
+                        <h3>Select Difficulty:</h3>
+                        <div class="button-group">
+                            <button class="btn btn-secondary" onclick="setDifficulty('beginner')">Beginner</button>
+                            <button class="btn btn-secondary" onclick="setDifficulty('intermediate')">Intermediate</button>
+                            <button class="btn btn-secondary" onclick="setDifficulty('advanced')">Advanced</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Game Screen -->
+            <div id="gameScreen" class="screen">
+                <div class="game-header">
+                    <div class="score-section">
+                        <p>Score: <span id="score">0</span></p>
+                        <p>Round: <span id="round">1</span>/10</p>
+                    </div>
+                    <button class="btn btn-small" onclick="returnToMenu()">Main Menu</button>
+                </div>
+
+                <div class="game-content">
+                    <div class="card card-main">
+                        <p class="card-label" id="cardLabel"></p>
+                        <p class="card-word" id="cardWord"></p>
+                    </div>
+
+                    <p class="instruction" id="instruction"></p>
+
+                    <div class="options" id="options"></div>
+
+                    <div class="hint-section">
+                        <button class="btn btn-small" onclick="showHint()">💡 Hint</button>
+                        <p id="hint" class="hint-text" style="display:none;"></p>
+                    </div>
+
+                    <div class="feedback" id="feedback"></div>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div id="resultsScreen" class="screen">
+                <div class="results-content">
+                    <h2>Game Over!</h2>
+                    <div class="final-score">
+                        <p>Your Score: <span id="finalScore">0</span>/10</p>
+                        <p id="performance"></p>
+                    </div>
+                    <div class="button-group">
+                        <button class="btn btn-primary" onclick="returnToMenu()">Back to Menu</button>
+                        <button class="btn btn-primary" onclick="playAgain()">Play Again</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Grammar Agreement Card Game | Learn English Grammar the Fun Way!</p>
+        </footer>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

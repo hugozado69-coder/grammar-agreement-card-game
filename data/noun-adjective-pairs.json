@@ -1,0 +1,60 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "noun": "sky",
+      "adjectives": ["blue", "clear", "cloudy"],
+      "correctAdjective": "blue",
+      "difficulty": "beginner",
+      "hint": "What color is the sky on a clear day?"
+    },
+    {
+      "id": 2,
+      "noun": "snow",
+      "adjectives": ["white", "cold", "pure"],
+      "correctAdjective": "white",
+      "difficulty": "beginner",
+      "hint": "What color is snow?"
+    },
+    {
+      "id": 3,
+      "noun": "forest",
+      "adjectives": ["green", "dark", "dense"],
+      "correctAdjective": "green",
+      "difficulty": "beginner",
+      "hint": "What color are the trees in a forest?"
+    },
+    {
+      "id": 4,
+      "noun": "fire",
+      "adjectives": ["hot", "red", "bright"],
+      "correctAdjective": "hot",
+      "difficulty": "intermediate",
+      "hint": "What is fire known for?"
+    },
+    {
+      "id": 5,
+      "noun": "ocean",
+      "adjectives": ["deep", "vast", "mysterious"],
+      "correctAdjective": "deep",
+      "difficulty": "intermediate",
+      "hint": "How would you describe the depth of the ocean?"
+    },
+    {
+      "id": 6,
+      "noun": "knowledge",
+      "adjectives": ["powerful", "valuable", "limitless"],
+      "correctAdjective": "powerful",
+      "difficulty": "advanced",
+      "hint": "What is knowledge often considered?"
+    },
+    {
+      "id": 7,
+      "noun": "silence",
+      "adjectives": ["deafening", "golden", "profound"],
+      "correctAdjective": "deafening",
+      "difficulty": "advanced",
+      "hint": "Think of an oxymoron with silence..."
+    }
+  ]
+}
